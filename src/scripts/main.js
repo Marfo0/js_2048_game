@@ -78,7 +78,7 @@ document.addEventListener('keydown', (clickEvent) => {
       game.moveDown();
       break;
     default:
-      return; // не наша клавіша — нічого не робимо
+      return;
   }
 
   updateBoard();
